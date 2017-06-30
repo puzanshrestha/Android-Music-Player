@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/coordinateView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginBottom="40dp"
+        android:id="@+id/recyclerViewMusic"
+        android:scrollbars="vertical"
+        android:layout_marginTop="@dimen/spacing_60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <include layout="@layout/app_bar"/>
+    <include layout="@layout/bottom_sheet_main"/>
+    <!--<SeekBar-->
+        <!--android:id="@+id/seekBarMusic"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="0"-->
+        <!--style="@style/Widget.AppCompat.SeekBar.Discrete"-->
+<!---->
+        <!--/>-->
+
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+    </style>
+
+    <style name="MyCardViewStyle" parent="CardView">
+        <item name="cardElevation">@dimen/spacing_10dp</item>
+        <item name="cardCornerRadius">7dp</item>
+        <item name="contentPaddingBottom">6dp</item>
+        <item name="contentPaddingTop">6dp</item>
+        <item name="contentPaddingLeft">6dp</item>
+        <item name="contentPaddingRight">6dp</item>
+        <item name="cardBackgroundColor">@color/dialog_CardsColor</item>
+
+        <item name="android:layout_marginBottom">@dimen/spacing_4dp</item>
+        <item name="android:layout_marginEnd">@dimen/spacing_4dp</item>
+        <item name="android:layout_marginLeft">@dimen/spacing_4dp</item>
+        <item name="android:layout_marginRight">@dimen/spacing_4dp</item>
+        <item name="android:layout_marginStart">@dimen/spacing_4dp</item>
+        <item name="android:layout_marginTop">@dimen/spacing_4dp</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+
+    <dimen name="spacing_10dp">10dp</dimen>
+    <dimen name="spacing_4dp">4dp</dimen>
+    <color name="statusBarColor">#223941</color>
+</resources>

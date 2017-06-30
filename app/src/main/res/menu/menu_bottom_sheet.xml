@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/previous"
+        android:title="@string/bottomsheet_previous"
+        android:icon="@drawable/ic_action_previous" />
+    <item
+        android:id="@+id/pause"
+        android:title="@string/bottomsheet_pause"
+        android:icon="@drawable/ic_action_pause" />
+    <item
+        android:id="@+id/next"
+        android:title="@string/bottomsheet_next"
+        android:icon="@drawable/ic_action_next" />
+</menu>

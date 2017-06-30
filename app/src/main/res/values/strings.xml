@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PlayMusic</string>
+    <string name="btn_PlayStop">Play</string>
+    <string name="bottomsheet_previous">Previous</string>
+    <string name="bottomsheet_pause">Pause</string>
+    <string name="bottomsheet_next">Next</string>
+</resources>
